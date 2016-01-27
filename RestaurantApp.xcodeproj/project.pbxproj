@@ -16,6 +16,8 @@
 		504E86041C588F88009F4263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504E86021C588F88009F4263 /* LaunchScreen.storyboard */; };
 		504E860F1C588F88009F4263 /* RestaurantAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504E860E1C588F88009F4263 /* RestaurantAppTests.m */; };
 		504E861A1C588F88009F4263 /* RestaurantAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504E86191C588F88009F4263 /* RestaurantAppUITests.m */; };
+		504E862A1C589A12009F4263 /* RACustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 504E86281C589A12009F4263 /* RACustomCell.m */; };
+		504E862B1C589A12009F4263 /* RACustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504E86291C589A12009F4263 /* RACustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		504E86151C588F88009F4263 /* RestaurantAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		504E86191C588F88009F4263 /* RestaurantAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestaurantAppUITests.m; sourceTree = "<group>"; };
 		504E861B1C588F88009F4263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504E86271C589A12009F4263 /* RACustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACustomCell.h; sourceTree = "<group>"; };
+		504E86281C589A12009F4263 /* RACustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACustomCell.m; sourceTree = "<group>"; };
+		504E86291C589A12009F4263 /* RACustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RACustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				504E85FA1C588F88009F4263 /* SecondViewController.h */,
 				504E85FB1C588F88009F4263 /* SecondViewController.m */,
 				504E85FD1C588F88009F4263 /* Main.storyboard */,
+				504E86271C589A12009F4263 /* RACustomCell.h */,
+				504E86281C589A12009F4263 /* RACustomCell.m */,
+				504E86291C589A12009F4263 /* RACustomCell.xib */,
 				504E86001C588F88009F4263 /* Assets.xcassets */,
 				504E86021C588F88009F4263 /* LaunchScreen.storyboard */,
 				504E86051C588F88009F4263 /* Info.plist */,
@@ -251,6 +259,7 @@
 				504E86041C588F88009F4263 /* LaunchScreen.storyboard in Resources */,
 				504E86011C588F88009F4263 /* Assets.xcassets in Resources */,
 				504E85FF1C588F88009F4263 /* Main.storyboard in Resources */,
+				504E862B1C589A12009F4263 /* RACustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				504E85FC1C588F88009F4263 /* SecondViewController.m in Sources */,
+				504E862A1C589A12009F4263 /* RACustomCell.m in Sources */,
 				504E85F61C588F88009F4263 /* AppDelegate.m in Sources */,
 				504E85F91C588F88009F4263 /* FirstViewController.m in Sources */,
 				504E85F31C588F88009F4263 /* main.m in Sources */,

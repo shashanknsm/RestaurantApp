@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController <UICollectionViewDataSource,
+                                                   UICollectionViewDelegate,
+                                                   UICollectionViewDelegateFlowLayout>
 
+@property (weak, nonatomic) IBOutlet UICollectionView *restaurantCollectionView;
 
 @end
 
