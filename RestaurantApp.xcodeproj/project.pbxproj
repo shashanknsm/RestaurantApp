@@ -18,6 +18,13 @@
 		504E861A1C588F88009F4263 /* RestaurantAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504E86191C588F88009F4263 /* RestaurantAppUITests.m */; };
 		504E862A1C589A12009F4263 /* RACustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 504E86281C589A12009F4263 /* RACustomCell.m */; };
 		504E862B1C589A12009F4263 /* RACustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504E86291C589A12009F4263 /* RACustomCell.xib */; };
+		5052B75B1C5E9542005C5E2B /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 5052B75A1C5E9542005C5E2B /* Restaurant.m */; };
+		5052B75F1C5E9889005C5E2B /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 5052B75E1C5E9889005C5E2B /* Contact.m */; };
+		5052B7621C5E98EB005C5E2B /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 5052B7611C5E98EB005C5E2B /* Location.m */; };
+		507468B81C5EAFF600F6DC33 /* RAImageDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 507468B61C5EAFF600F6DC33 /* RAImageDownloadManager.m */; };
+		507468BB1C5EDFAD00F6DC33 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507468BA1C5EDFAD00F6DC33 /* DetailViewController.m */; };
+		507468BD1C5EE19700F6DC33 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507468BC1C5EE19700F6DC33 /* MapKit.framework */; };
+		B62ABB7695E4B19013B33246 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AED7CE1F200B7954E54C93C5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +66,20 @@
 		504E86271C589A12009F4263 /* RACustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACustomCell.h; sourceTree = "<group>"; };
 		504E86281C589A12009F4263 /* RACustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACustomCell.m; sourceTree = "<group>"; };
 		504E86291C589A12009F4263 /* RACustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RACustomCell.xib; sourceTree = "<group>"; };
+		5052B7591C5E9542005C5E2B /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		5052B75A1C5E9542005C5E2B /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		5052B75D1C5E9889005C5E2B /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		5052B75E1C5E9889005C5E2B /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		5052B7601C5E98EB005C5E2B /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		5052B7611C5E98EB005C5E2B /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		507468B61C5EAFF600F6DC33 /* RAImageDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAImageDownloadManager.m; sourceTree = "<group>"; };
+		507468B71C5EAFF600F6DC33 /* RAImageDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAImageDownloadManager.h; sourceTree = "<group>"; };
+		507468B91C5EDFAD00F6DC33 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		507468BA1C5EDFAD00F6DC33 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		507468BC1C5EE19700F6DC33 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8D83BC44992F9A6D0C41AE59 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AED7CE1F200B7954E54C93C5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B438A19DAF92E8C0A2DDE404 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507468BD1C5EE19700F6DC33 /* MapKit.framework in Frameworks */,
+				B62ABB7695E4B19013B33246 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29892D1753630EE663D1E75C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D83BC44992F9A6D0C41AE59 /* Pods.debug.xcconfig */,
+				B438A19DAF92E8C0A2DDE404 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		504E85E51C588F88009F4263 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +125,8 @@
 				504E860D1C588F88009F4263 /* RestaurantAppTests */,
 				504E86181C588F88009F4263 /* RestaurantAppUITests */,
 				504E85EF1C588F88009F4263 /* Products */,
+				29892D1753630EE663D1E75C /* Pods */,
+				B4607CEAE80745C83BDDA29A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,10 +145,15 @@
 			children = (
 				504E85F41C588F88009F4263 /* AppDelegate.h */,
 				504E85F51C588F88009F4263 /* AppDelegate.m */,
+				5052B75C1C5E9869005C5E2B /* Models */,
 				504E85F71C588F88009F4263 /* FirstViewController.h */,
 				504E85F81C588F88009F4263 /* FirstViewController.m */,
+				507468B71C5EAFF600F6DC33 /* RAImageDownloadManager.h */,
+				507468B61C5EAFF600F6DC33 /* RAImageDownloadManager.m */,
 				504E85FA1C588F88009F4263 /* SecondViewController.h */,
 				504E85FB1C588F88009F4263 /* SecondViewController.m */,
+				507468B91C5EDFAD00F6DC33 /* DetailViewController.h */,
+				507468BA1C5EDFAD00F6DC33 /* DetailViewController.m */,
 				504E85FD1C588F88009F4263 /* Main.storyboard */,
 				504E86271C589A12009F4263 /* RACustomCell.h */,
 				504E86281C589A12009F4263 /* RACustomCell.m */,
@@ -153,6 +192,28 @@
 			path = RestaurantAppUITests;
 			sourceTree = "<group>";
 		};
+		5052B75C1C5E9869005C5E2B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5052B7591C5E9542005C5E2B /* Restaurant.h */,
+				5052B75A1C5E9542005C5E2B /* Restaurant.m */,
+				5052B75D1C5E9889005C5E2B /* Contact.h */,
+				5052B75E1C5E9889005C5E2B /* Contact.m */,
+				5052B7601C5E98EB005C5E2B /* Location.h */,
+				5052B7611C5E98EB005C5E2B /* Location.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B4607CEAE80745C83BDDA29A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				507468BC1C5EE19700F6DC33 /* MapKit.framework */,
+				AED7CE1F200B7954E54C93C5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 504E861E1C588F88009F4263 /* Build configuration list for PBXNativeTarget "RestaurantApp" */;
 			buildPhases = (
+				237244EF2FF1B1F247A91098 /* Check Pods Manifest.lock */,
 				504E85EA1C588F88009F4263 /* Sources */,
 				504E85EB1C588F88009F4263 /* Frameworks */,
 				504E85EC1C588F88009F4263 /* Resources */,
+				AFB6C6BA4272E4AF55E36EC4 /* Embed Pods Frameworks */,
+				89CEAF3A3B37BA7EDB4A08FF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,16 +343,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		237244EF2FF1B1F247A91098 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89CEAF3A3B37BA7EDB4A08FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFB6C6BA4272E4AF55E36EC4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		504E85EA1C588F88009F4263 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				504E85FC1C588F88009F4263 /* SecondViewController.m in Sources */,
+				5052B75F1C5E9889005C5E2B /* Contact.m in Sources */,
 				504E862A1C589A12009F4263 /* RACustomCell.m in Sources */,
 				504E85F61C588F88009F4263 /* AppDelegate.m in Sources */,
 				504E85F91C588F88009F4263 /* FirstViewController.m in Sources */,
+				507468BB1C5EDFAD00F6DC33 /* DetailViewController.m in Sources */,
+				5052B75B1C5E9542005C5E2B /* Restaurant.m in Sources */,
+				5052B7621C5E98EB005C5E2B /* Location.m in Sources */,
 				504E85F31C588F88009F4263 /* main.m in Sources */,
+				507468B81C5EAFF600F6DC33 /* RAImageDownloadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +542,7 @@
 		};
 		504E861F1C588F88009F4263 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D83BC44992F9A6D0C41AE59 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RestaurantApp/Info.plist;
@@ -436,6 +554,7 @@
 		};
 		504E86201C588F88009F4263 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B438A19DAF92E8C0A2DDE404 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RestaurantApp/Info.plist;
@@ -512,6 +631,7 @@
 				504E86201C588F88009F4263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		504E86211C588F88009F4263 /* Build configuration list for PBXNativeTarget "RestaurantAppTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +640,7 @@
 				504E86231C588F88009F4263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		504E86241C588F88009F4263 /* Build configuration list for PBXNativeTarget "RestaurantAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +649,7 @@
 				504E86261C588F88009F4263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

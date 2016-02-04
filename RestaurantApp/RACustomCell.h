@@ -10,14 +10,8 @@
 
 @interface RACustomCell : UICollectionViewCell
 
-
 @property (weak, nonatomic) IBOutlet UIImageView *restaurantImageView;
-
-
 @property (weak, nonatomic) IBOutlet UILabel *restaurantNameLabel;
-
-
 @property (weak, nonatomic) IBOutlet UILabel *categoryTypeLabel;
-
 
 @end
